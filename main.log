@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.13)  10 APR 2025 20:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.13)  10 APR 2025 21:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -290,12 +290,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 File: Task1getPort.png Graphic file (type png)
 <use Task1getPort.png>
 Package pdftex.def Info: Task1getPort.png  used on input line 66.
-(pdftex.def)             Requested size: 639.38718pt x 118.4422pt.
-
-Overfull \hbox (184.08597pt too wide) in paragraph at lines 66--67
-[][] 
- []
-
+(pdftex.def)             Requested size: 319.69359pt x 59.2211pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--72
 
@@ -310,9 +305,9 @@ Overfull \hbox (2.948pt too wide) in paragraph at lines 82--83
 File: Task1.1InitalAttack.png Graphic file (type png)
 <use Task1.1InitalAttack.png>
 Package pdftex.def Info: Task1.1InitalAttack.png  used on input line 91.
-(pdftex.def)             Requested size: 1598.96986pt x 156.58461pt.
+(pdftex.def)             Requested size: 479.69583pt x 46.97586pt.
 
-Overfull \hbox (1143.66866pt too wide) in paragraph at lines 91--92
+Overfull \hbox (24.39462pt too wide) in paragraph at lines 91--92
 [][] 
  []
 
@@ -320,26 +315,26 @@ Overfull \hbox (1143.66866pt too wide) in paragraph at lines 91--92
 File: Task1.1Attempt2Attack.png Graphic file (type png)
 <use Task1.1Attempt2Attack.png>
 Package pdftex.def Info: Task1.1Attempt2Attack.png  used on input line 100.
-(pdftex.def)             Requested size: 1956.304pt x 136.50966pt.
+(pdftex.def)             Requested size: 489.07599pt x 34.12741pt.
 
-Overfull \hbox (1501.00279pt too wide) in paragraph at lines 100--101
+Overfull \hbox (33.77478pt too wide) in paragraph at lines 100--101
 [][] 
  []
 
 [1
 
-{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Task1getPort.png>]
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Task1getPort.png> <./Task1.1InitalAttack.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-<Task1.2Fail.png, id=15, 1711.39375pt x 95.35625pt>
+<Task1.2Fail.png, id=16, 1711.39375pt x 95.35625pt>
 File: Task1.2Fail.png Graphic file (type png)
 <use Task1.2Fail.png>
 Package pdftex.def Info: Task1.2Fail.png  used on input line 111.
-(pdftex.def)             Requested size: 1711.38959pt x 95.356pt.
+(pdftex.def)             Requested size: 513.42209pt x 28.60709pt.
 
-Overfull \hbox (1256.08838pt too wide) in paragraph at lines 111--112
+Overfull \hbox (58.12088pt too wide) in paragraph at lines 111--112
 [][] 
  []
 
@@ -348,159 +343,124 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
-[2 <./Task1.1InitalAttack.png> <./Task1.1Attempt2Attack.png> <./Task1.2Fail.png>]
-<1.3pythonCookies.png, id=23, 1965.3425pt x 825.0825pt>
+<1.3pythonCookies.png, id=18, 1965.3425pt x 825.0825pt>
 File: 1.3pythonCookies.png Graphic file (type png)
 <use 1.3pythonCookies.png>
 Package pdftex.def Info: 1.3pythonCookies.png  used on input line 124.
-(pdftex.def)             Requested size: 1965.33772pt x 825.08049pt.
+(pdftex.def)             Requested size: 491.33443pt x 206.27011pt.
 
-Overfull \hbox (1510.03651pt too wide) in paragraph at lines 124--125
+Overfull \hbox (36.03322pt too wide) in paragraph at lines 124--125
 [][] 
  []
 
-
-LaTeX Warning: Float too large for page by 174.6505pt on input line 125.
-
-<Task1.3cflood.png, id=25, 1853.92625pt x 775.89874pt>
+[2 <./Task1.1Attempt2Attack.png> <./Task1.2Fail.png> <./1.3pythonCookies.png>]
+<Task1.3cflood.png, id=26, 1853.92625pt x 775.89874pt>
 File: Task1.3cflood.png Graphic file (type png)
 <use Task1.3cflood.png>
-Package pdftex.def Info: Task1.3cflood.png  used on input line 131.
-(pdftex.def)             Requested size: 1853.92175pt x 775.89685pt.
+Package pdftex.def Info: Task1.3cflood.png  used on input line 132.
+(pdftex.def)             Requested size: 519.09583pt x 217.25017pt.
 
-Overfull \hbox (1398.62054pt too wide) in paragraph at lines 131--132
+Overfull \hbox (63.79462pt too wide) in paragraph at lines 132--133
 [][] 
  []
 
-
-LaTeX Warning: Float too large for page by 125.46686pt on input line 132.
-
-<task2WiresharkPacket.png, id=27, 1377.145pt x 106.3975pt>
+<task2WiresharkPacket.png, id=28, 1377.145pt x 106.3975pt>
 File: task2WiresharkPacket.png Graphic file (type png)
 <use task2WiresharkPacket.png>
-Package pdftex.def Info: task2WiresharkPacket.png  used on input line 142.
-(pdftex.def)             Requested size: 1377.14165pt x 106.39723pt.
+Package pdftex.def Info: task2WiresharkPacket.png  used on input line 143.
+(pdftex.def)             Requested size: 482.00798pt x 37.23967pt.
 
-Overfull \hbox (921.84044pt too wide) in paragraph at lines 142--143
+Overfull \hbox (26.70677pt too wide) in paragraph at lines 143--144
 [][] 
  []
 
-<Task2AttackLaunch.png, id=29, 1957.3125pt x 1212.53pt>
+[3{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Task1.3cflood.png> <./task2WiresharkPacket.png>]
+<Task2AttackLaunch.png, id=36, 1957.3125pt x 1212.53pt>
 File: Task2AttackLaunch.png Graphic file (type png)
 <use Task2AttackLaunch.png>
 Package pdftex.def Info: Task2AttackLaunch.png  used on input line 163.
-(pdftex.def)             Requested size: 1957.30774pt x 1212.52705pt.
+(pdftex.def)             Requested size: 508.88925pt x 315.25037pt.
 
-Overfull \hbox (1502.00653pt too wide) in paragraph at lines 163--164
+Overfull \hbox (53.58804pt too wide) in paragraph at lines 163--164
 [][] 
  []
 
-
-LaTeX Warning: Float too large for page by 562.09706pt on input line 164.
-
-<Task3Packet2.png, id=31, 841.1425pt x 77.28876pt>
+<Task3Packet2.png, id=38, 841.1425pt x 77.28876pt>
 File: Task3Packet2.png Graphic file (type png)
 <use Task3Packet2.png>
 Package pdftex.def Info: Task3Packet2.png  used on input line 175.
-(pdftex.def)             Requested size: 841.14046pt x 77.28856pt.
-
-Overfull \hbox (385.83925pt too wide) in paragraph at lines 175--176
-[][] 
- []
-
+(pdftex.def)             Requested size: 420.57022pt x 38.64427pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 179--181
 
  []
 
-[3{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Overfull \hbox (87.54785pt too wide) in paragraph at lines 187--188
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 188.
-(c:/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
+[4 <./Task2AttackLaunch.png> <./Task3Packet2.png>]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 189.
+ (c:/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 188.
-<Task32AttackPerform.png, id=37, 1291.82625pt x 512.91624pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 189.
+<Task32AttackPerform.png, id=45, 1291.82625pt x 512.91624pt>
 File: Task32AttackPerform.png Graphic file (type png)
 <use Task32AttackPerform.png>
-Package pdftex.def Info: Task32AttackPerform.png  used on input line 197.
-(pdftex.def)             Requested size: 1291.8231pt x 512.915pt.
+Package pdftex.def Info: Task32AttackPerform.png  used on input line 198.
+(pdftex.def)             Requested size: 516.72134pt x 205.16286pt.
 
-Overfull \hbox (836.5219pt too wide) in paragraph at lines 197--198
+Overfull \hbox (61.42014pt too wide) in paragraph at lines 198--199
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--202
+Underfull \hbox (badness 10000) in paragraph at lines 201--203
 
  []
 
-<Task32RIGHTafterAttack.png, id=39, 645.41125pt x 371.3875pt>
+<Task32RIGHTafterAttack.png, id=47, 645.41125pt x 371.3875pt>
 File: Task32RIGHTafterAttack.png Graphic file (type png)
 <use Task32RIGHTafterAttack.png>
-Package pdftex.def Info: Task32RIGHTafterAttack.png  used on input line 205.
-(pdftex.def)             Requested size: 645.40968pt x 371.38658pt.
-
-Overfull \hbox (190.10847pt too wide) in paragraph at lines 205--206
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Package pdftex.def Info: Task32RIGHTafterAttack.png  used on input line 206.
+(pdftex.def)             Requested size: 322.70483pt x 185.69328pt.
+[5 <./Task32AttackPerform.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
  []
 
-<Task4TargetPacket.png, id=41, 1380.15625pt x 381.425pt>
+<Task4TargetPacket.png, id=54, 1380.15625pt x 381.425pt>
 File: Task4TargetPacket.png Graphic file (type png)
 <use Task4TargetPacket.png>
-Package pdftex.def Info: Task4TargetPacket.png  used on input line 216.
-(pdftex.def)             Requested size: 1380.1529pt x 381.42406pt.
+Package pdftex.def Info: Task4TargetPacket.png  used on input line 217.
+(pdftex.def)             Requested size: 483.06194pt x 133.50075pt.
 
-Overfull \hbox (924.85168pt too wide) in paragraph at lines 216--217
+Overfull \hbox (27.76073pt too wide) in paragraph at lines 217--218
 [][] 
  []
 
-
-Overfull \hbox (73.44788pt too wide) in paragraph at lines 228--229
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 229.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 231.
 (c:/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 229.
-<Task4Attack.png, id=43, 890.32625pt x 613.29124pt>
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 231.
+ [6 <./Task32RIGHTafterAttack.png> <./Task4TargetPacket.png>]
+<Task4Attack.png, id=61, 890.32625pt x 613.29124pt>
 File: Task4Attack.png Graphic file (type png)
 <use Task4Attack.png>
-Package pdftex.def Info: Task4Attack.png  used on input line 239.
-(pdftex.def)             Requested size: 890.32408pt x 613.28973pt.
-
-Overfull \hbox (435.02287pt too wide) in paragraph at lines 239--240
-[][] 
- []
-
-<Task4afterAttack.png, id=45, 680.5425pt x 370.38374pt>
+Package pdftex.def Info: Task4Attack.png  used on input line 240.
+(pdftex.def)             Requested size: 445.16203pt x 306.64487pt.
+ [7 <./Task4Attack.png>]
+<Task4afterAttack.png, id=69, 680.5425pt x 370.38374pt>
 File: Task4afterAttack.png Graphic file (type png)
 <use Task4afterAttack.png>
-Package pdftex.def Info: Task4afterAttack.png  used on input line 247.
-(pdftex.def)             Requested size: 680.54083pt x 370.38283pt.
-
-Overfull \hbox (225.23962pt too wide) in paragraph at lines 247--248
-[][] 
- []
-
-[4] [5] [6 <./1.3pythonCookies.png>] [7 <./Task1.3cflood.png>] [8 <./task2WiresharkPacket.png>] [9 <./Task2AttackLaunch.png>] [10 <./Task3Packet2.png> <./Task32AttackPerform.png>] [11 <./Task32RIGHTafterAttack.png>] [12 <./Task4TargetPacket.png>] [13 <./Task4Attack.png>] [14 <./Task4afterAttack.png>] (./main.aux)
+Package pdftex.def Info: Task4afterAttack.png  used on input line 250.
+(pdftex.def)             Requested size: 340.27042pt x 185.1914pt.
+ [8 <./Task4afterAttack.png>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2024-01-04>
@@ -509,16 +469,16 @@ L3 programming layer <2024-01-04>
 Here is how much of TeX's memory you used:
  5678 strings out of 474165
  85314 string characters out of 5749497
- 1952528 words of memory out of 5000000
+ 1944528 words of memory out of 5000000
  27951 multiletter control sequences out of 15000+600000
  561136 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,6n,79p,312b,1246s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 68i,7n,79p,312b,1537s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (14 pages, 703560 bytes).
+Output written on main.pdf (8 pages, 703407 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
